@@ -1,0 +1,101 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+.body {
+    background-color: #111111;
+}
+.itop {
+    height: 1200px;
+    background-color:black ;
+}
+.profilePic {
+    margin-top: '0px';
+    margin-top: -340px;
+    margin-left: 10px;
+}
+.profile {
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-left: 15px;
+}
+
+.coverImg {
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.info {
+    color: white;
+    background-color: #2A2929;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding-top: 15px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 360px;
+}
+.white {
+    color: white;
+}
+.get {
+    margin-left: 5px;
+    padding-top: -30px;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-weight: small;
+    font-size: 8px;
+    width: 65px;
+    height: 30px;
+}
+.rect {
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    margin-top: -7px;
+    border: none;
+    padding-top: 5px;
+    height: 30px;
+    width: 30px;
+}
+.rect2 {
+    border-radius: 50%;
+    padding: 10px;
+    color: orange;
+    margin-top: -25px;
+    margin-left: 35px;
+    border: none;
+    background-color: #202020;
+}
+.rect3 {
+    border-radius: 50%;
+    padding: 10px;
+    color: orange;
+    margin-top: -3px;
+    border: none;
+    background-color: #2A2929;
+    margin-left: 230px;
+}
+.social {
+    margin-left: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .itop {
+        padding-left: 300px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .itop {
+        padding-left: 500px;
+    }
+}
